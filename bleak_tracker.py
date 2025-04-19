@@ -4,8 +4,7 @@ from bleak import BleakScanner
 import time
 
 KNOWN_DEVICES = {
-    "JBL Tune 520BT-LE-1": "2E4C301A-FF8F-692F-E945-01D27DBCD839",
-    "JBL Tune 520BT-LE-2": "63971F11-682D-CF9F-6927-B40D1461895F"
+    "None": "1C:AF:4A:72:97:DD"  #tv
 }
 
 async def scan_for_devices():
